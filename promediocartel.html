@@ -1,0 +1,31 @@
+<html>
+<head>
+</head>
+
+<body>
+<script>
+let n1;
+let n2;
+let n3;
+let p;
+let cartel;
+
+n1=parseInt(prompt('ingrese nota numero uno', ' '));
+n2=parseInt(prompt('ingrese nota numero dos', ' '));
+n3=parseInt(prompt('ingrese nota numero tres', ' '));
+p=(n1+n2+n3)/3;
+if (p>=0 && p<=6)
+{cartel="desaprobado";}
+
+if (p==7)
+{cartel="aproado";}
+
+if (p>7 && p<=10)
+{cartel="excelente";}
+
+document.write(cartel);
+
+</script>
+</body>
+</html>
+
