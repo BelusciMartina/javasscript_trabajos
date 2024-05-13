@@ -1,0 +1,63 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+
+let n1,n2,n3;
+let mayor, medio, menor;
+
+n1=parseInt(prompt('ingrese numero uno',' '));
+n2=parseInt(prompt('ingrese numero dos', ' '));
+n3=parseInt(prompt('ingrese numero tres',' '));
+
+if(n1<n2 && n1<n3)
+{
+menor=n1;
+}
+
+if(n2<n1 && n2<n3)
+{
+menor=n2;
+}
+
+if(n3<n1 && n3<n2)
+{
+menor=n3;
+}
+
+if(n1>n2 && n1>n3)
+{
+mayor=n1;
+}
+
+if(n2>n1 && n2>n3)
+{
+mayor=n2;
+}
+
+if(n3>n1 && n3>n1)
+{
+mayor=n3;
+}
+
+if(n1>menor && n1<mayor)
+{
+medio=n1;
+}
+
+if(n2>menor && n2<mayor)
+{
+medio=n2;
+}
+
+if(n3>menor && n3<mayor)
+{
+medio=n3;
+}
+
+document.write('el orden de los numeros son '+mayor+medio+menor);
+
+</script>
+</body>
+</html>
