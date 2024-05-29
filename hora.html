@@ -1,0 +1,22 @@
+<html>
+<head>
+</head>
+
+<body>
+<script>
+
+let min,hora;
+let cartel="AM";
+hora=parseInt(prompt('ingrese una hora', ' '));
+min=parseInt(prompt('ingrese los minutos',' '));
+
+if (hora>=13 && hora<=24)
+{
+hora=hora-12;
+cartel="PM";
+}
+
+document.write ('La hora es '+hora+':'+min+'  '+cartel);
+</script>
+</body> 
+</html>
