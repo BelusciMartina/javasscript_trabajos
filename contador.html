@@ -1,0 +1,28 @@
+<html>
+<head>
+</head>
+
+<body>
+<script>
+//programa que lea números enteros y calcule la cantidad de valores mayores o iguales a 1000.
+
+let n,i,num,cont;
+
+cont=0;
+
+n=parseInt(prompt('ingrese una cantidad de numeros ', ' '));
+
+for( i=1; i<=n; i++)
+{
+num=parseInt(prompt('ingrese los numeros deseados ', ' '));
+if(num>=1000)
+{
+cont++;
+}
+}
+
+document.write(cont);
+
+</script>
+</body>
+</html>
